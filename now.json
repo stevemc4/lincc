@@ -1,7 +1,5 @@
 {
-  "builds": [
-    {
-      "src": "dist/api/*.js", "use": "@now/node"
-    }
+  "routes": [
+    {"handle": "filesystem"}
   ]
 }
